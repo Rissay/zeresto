@@ -19,6 +19,8 @@
 
 -(void)loadTab:(int)tabIndex;
 -(void)switchToController:(UIViewController*) controller;
+-(void) hideTabBar:(BOOL)boole;
+-(void) changeAlpha:(float)alpha;
 
 
 @end

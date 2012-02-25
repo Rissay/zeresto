@@ -12,6 +12,8 @@
 
 @interface HomeViewController : zerestoViewController <UITableViewDataSource, UITableViewDelegate>
 {
+    IBOutlet UITableView *listes;
 }
+@property (retain, nonatomic) IBOutlet UITableView *listes;
 
 @end

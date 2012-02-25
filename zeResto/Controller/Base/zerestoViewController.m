@@ -34,6 +34,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    UIPanGestureRecognizer *pangestur = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(panGesture:)];
+    [pangestur setMinimumNumberOfTouches:2];
+    [pangestur setDelegate:self];
+    [self.view addGestureRecognizer:pangestur];
+    [pangestur release];
 	/*
 	AppDelegate* theApp = [AppDelegate getSodexoApplication];
 	theApp.displayNavImage = YES;
@@ -56,6 +61,22 @@
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
 }
+
+- (void)panPiece:(UIPanGestureRecognizer *)gestureRecognizer
+{
+    UIView *piece = [gestureRecognizer view];
+    
+    NSLog(@"translation %@", [gestureRecognizer translationInView:[piece superview]]);
+    
+    if ([gestureRecognizer state] == UIGestureRecognizerStateBegan || [gestureRecognizer state] == UIGestureRecognizerStateChanged) {
+        CGPoint translation = [gestureRecognizer translationInView:[piece superview]];
+        NSLog(@"translation %f", translation.x);
+        [piece setCenter:CGPointMake([piece center].x + translation.x, [piece center].y + translation.y)];
+        [gestureRecognizer setTranslation:CGPointZero inView:[piece superview]];
+    }
+}
+
+
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {

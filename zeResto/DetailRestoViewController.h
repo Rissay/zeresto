@@ -18,4 +18,15 @@
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil andResto:(NSString*)aResto;
 
+@property (retain, nonatomic) IBOutlet UIImageView *image;
+@property (retain, nonatomic) IBOutlet UILabel *adress;
+@property (retain, nonatomic) IBOutlet UILabel *rating;
+@property (retain, nonatomic) IBOutlet UITextView *comment;
+@property (retain, nonatomic) IBOutlet UILabel *nom;
+@property (retain, nonatomic) IBOutlet UIView *detailsView;
+
+
+-(IBAction) showDetails:(BOOL)aut;
+
+
 @end

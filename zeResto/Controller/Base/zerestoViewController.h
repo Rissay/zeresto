@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface zerestoViewController : UIViewController
+@interface zerestoViewController : UIViewController <UIGestureRecognizerDelegate>
 {
     BOOL canAccessTabBar;
 }

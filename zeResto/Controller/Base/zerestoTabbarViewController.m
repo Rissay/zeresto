@@ -12,6 +12,7 @@
 #import "zerestoViewController.h"
 #import "HomeViewController.h"
 #import "DetailRestoViewController.h"
+#import "ArticleListViewController_iPhone.h"
 
 @implementation zerestoTabbarViewController
 
@@ -103,14 +104,13 @@
          case 0:
 			//Accueil
             
-                controller = [[HomeViewController alloc] initWithNibName:@"HomeViewController" 
+                controller = [[ArticleListViewController_iPhone alloc] initWithNibName:@"ArticleListViewController_iPhone" 
                                                                   bundle:nil];
 			break;
 		case 1:
 			//Test
-            controller = [[DetailRestoViewController alloc] initWithNibName:@"DetailRestoViewController" 
-                                                                     bundle:nil 
-                                                                   andResto:@"TabBar"];
+            controller = [[HomeViewController alloc] initWithNibName:@"HomeViewController" 
+                                                                     bundle:nil ];
 			
 			break;	
 		case 2:
@@ -183,6 +183,16 @@
 	}
 	
 	[contentController viewDidAppear:YES];
+}
+
+-(void) hideTabBar:(BOOL)boole
+{
+        self.tabBar.hidden = boole;
+}
+
+-(void) changeAlpha:(float)alpha
+{
+    [self.tabBar setAlpha:alpha];
 }
 
 
