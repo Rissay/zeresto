@@ -26,6 +26,13 @@
 		F2E5CAC114F8EE230033B72E /* ListeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2E5CABF14F8EE230033B72E /* ListeViewController.xib */; };
 		F2E5CAC514F8F3510033B72E /* DetailRestoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E5CAC314F8F3500033B72E /* DetailRestoViewController.m */; };
 		F2E5CAC614F8F3510033B72E /* DetailRestoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2E5CAC414F8F3510033B72E /* DetailRestoViewController.xib */; };
+		F2E5CB0D14F926710033B72E /* zerestoNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E5CB0514F926710033B72E /* zerestoNavigationController.m */; };
+		F2E5CB0E14F926710033B72E /* zerestoNavigationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2E5CB0614F926710033B72E /* zerestoNavigationController.xib */; };
+		F2E5CB0F14F926710033B72E /* zerestoTabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E5CB0814F926710033B72E /* zerestoTabbarViewController.m */; };
+		F2E5CB1014F926710033B72E /* zerestoTabbarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2E5CB0914F926710033B72E /* zerestoTabbarViewController.xib */; };
+		F2E5CB1114F926710033B72E /* zerestoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E5CB0B14F926710033B72E /* zerestoViewController.m */; };
+		F2E5CB1214F926710033B72E /* zerestoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2E5CB0C14F926710033B72E /* zerestoViewController.xib */; };
+		F2E5CB1514F9267C0033B72E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2E5CB1414F9267C0033B72E /* MainWindow.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +65,16 @@
 		F2E5CAC214F8F3500033B72E /* DetailRestoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailRestoViewController.h; sourceTree = "<group>"; };
 		F2E5CAC314F8F3500033B72E /* DetailRestoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailRestoViewController.m; sourceTree = "<group>"; };
 		F2E5CAC414F8F3510033B72E /* DetailRestoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailRestoViewController.xib; sourceTree = "<group>"; };
+		F2E5CB0414F926710033B72E /* zerestoNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zerestoNavigationController.h; sourceTree = "<group>"; };
+		F2E5CB0514F926710033B72E /* zerestoNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zerestoNavigationController.m; sourceTree = "<group>"; };
+		F2E5CB0614F926710033B72E /* zerestoNavigationController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = zerestoNavigationController.xib; sourceTree = "<group>"; };
+		F2E5CB0714F926710033B72E /* zerestoTabbarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zerestoTabbarViewController.h; sourceTree = "<group>"; };
+		F2E5CB0814F926710033B72E /* zerestoTabbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zerestoTabbarViewController.m; sourceTree = "<group>"; };
+		F2E5CB0914F926710033B72E /* zerestoTabbarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = zerestoTabbarViewController.xib; sourceTree = "<group>"; };
+		F2E5CB0A14F926710033B72E /* zerestoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zerestoViewController.h; sourceTree = "<group>"; };
+		F2E5CB0B14F926710033B72E /* zerestoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zerestoViewController.m; sourceTree = "<group>"; };
+		F2E5CB0C14F926710033B72E /* zerestoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = zerestoViewController.xib; sourceTree = "<group>"; };
+		F2E5CB1414F9267C0033B72E /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +127,7 @@
 				F2E5CAA014F8DD960033B72E /* Ressources */,
 				F2E5CA8B14F8D1930033B72E /* AppDelegate.h */,
 				F2E5CA8C14F8D1930033B72E /* AppDelegate.m */,
+				F2E5CB1414F9267C0033B72E /* MainWindow.xib */,
 				F2E5CA8314F8D1930033B72E /* Supporting Files */,
 			);
 			path = zeResto;
@@ -129,6 +147,7 @@
 		F2E5CA9F14F8DD7F0033B72E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				F2E5CB0314F926710033B72E /* Base */,
 				F2E5CAAC14F8DF4B0033B72E /* Defaulf  */,
 				F2E5CABC14F8ED780033B72E /* UI */,
 				F2E5CAA714F8DF3A0033B72E /* HomeViewController.h */,
@@ -190,6 +209,23 @@
 			name = UI;
 			sourceTree = "<group>";
 		};
+		F2E5CB0314F926710033B72E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F2E5CB0414F926710033B72E /* zerestoNavigationController.h */,
+				F2E5CB0514F926710033B72E /* zerestoNavigationController.m */,
+				F2E5CB0614F926710033B72E /* zerestoNavigationController.xib */,
+				F2E5CB0714F926710033B72E /* zerestoTabbarViewController.h */,
+				F2E5CB0814F926710033B72E /* zerestoTabbarViewController.m */,
+				F2E5CB0914F926710033B72E /* zerestoTabbarViewController.xib */,
+				F2E5CB0A14F926710033B72E /* zerestoViewController.h */,
+				F2E5CB0B14F926710033B72E /* zerestoViewController.m */,
+				F2E5CB0C14F926710033B72E /* zerestoViewController.xib */,
+			);
+			name = Base;
+			path = Controller/Base;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -247,6 +283,10 @@
 				F2E5CAB514F8E48E0033B72E /* CustomTableViewCell.xib in Resources */,
 				F2E5CAC114F8EE230033B72E /* ListeViewController.xib in Resources */,
 				F2E5CAC614F8F3510033B72E /* DetailRestoViewController.xib in Resources */,
+				F2E5CB0E14F926710033B72E /* zerestoNavigationController.xib in Resources */,
+				F2E5CB1014F926710033B72E /* zerestoTabbarViewController.xib in Resources */,
+				F2E5CB1214F926710033B72E /* zerestoViewController.xib in Resources */,
+				F2E5CB1514F9267C0033B72E /* MainWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +305,9 @@
 				F2E5CAB414F8E48E0033B72E /* CustomTableViewCell.m in Sources */,
 				F2E5CAC014F8EE230033B72E /* ListeViewController.m in Sources */,
 				F2E5CAC514F8F3510033B72E /* DetailRestoViewController.m in Sources */,
+				F2E5CB0D14F926710033B72E /* zerestoNavigationController.m in Sources */,
+				F2E5CB0F14F926710033B72E /* zerestoTabbarViewController.m in Sources */,
+				F2E5CB1114F926710033B72E /* zerestoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,6 +425,7 @@
 				F2E5CA9E14F8D1930033B72E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

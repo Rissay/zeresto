@@ -8,10 +8,22 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+#import "zerestoTabbarViewController.h"
 
-@property (strong, nonatomic) UIWindow *window;
+@interface AppDelegate : NSObject <UIApplicationDelegate, UITabBarControllerDelegate>
+{
+    BOOL displayNavImage;
+}
 
-@property (strong, nonatomic) UINavigationController *navigationController;
+@property (nonatomic) BOOL displayNavImage;
+
+@property (strong, nonatomic) IBOutlet UIWindow *window;
+
+//@property (strong, nonatomic) IBOutlet UINavigationController *navigationController;
+
+@property (nonatomic, retain) IBOutlet zerestoTabbarViewController *tabBarController;
+
+
++(AppDelegate*)getzerestoApplication;
 
 @end

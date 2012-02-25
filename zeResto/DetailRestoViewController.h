@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "zerestoViewController.h"
 
-@interface DetailRestoViewController : UIViewController
+@interface DetailRestoViewController : zerestoViewController
 {
     NSString *idResto;
 }

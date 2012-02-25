@@ -13,23 +13,36 @@
 @implementation AppDelegate
 
 @synthesize window = _window;
-@synthesize navigationController = _navigationController;
+//@synthesize navigationController = _navigationController;
+@synthesize displayNavImage;
+
+@synthesize tabBarController = _tabBarController;
+
+- (id) init
+{
+	[super init];
+	displayNavImage = YES;
+	return self;
+}
 
 - (void)dealloc
 {
     [_window release];
-    [_navigationController release];
+    //[_navigationController release];
     [super dealloc];
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
+    //    self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
-
-    HomeViewController *homeViewController =[[[HomeViewController alloc] initWithNibName:@"HomeViewController" bundle:nil] autorelease];
-    self.navigationController = [[[UINavigationController alloc] initWithRootViewController:homeViewController] autorelease];
-    self.window.rootViewController = self.navigationController;
+    
+    //    HomeViewController *homeViewController =[[[HomeViewController alloc] initWithNibName:@"HomeViewController" bundle:nil] autorelease];
+    //    self.navigationController = [[[UINavigationController alloc] initWithRootViewController:homeViewController] autorelease];
+    //    self.window.rootViewController = self.navigationController;
+    
+    [self.window addSubview:[self.tabBarController view]];
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
@@ -72,5 +85,23 @@
      See also applicationDidEnterBackground:.
      */
 }
+
++(AppDelegate *)getzerestoApplication {
+    UIApplication *application = [UIApplication sharedApplication];
+	if (application != nil)
+	{
+		NSObject *applicationDelegate = application.delegate;
+		if (applicationDelegate != nil)
+		{
+			if ([applicationDelegate isKindOfClass:[AppDelegate class]] == YES)
+			{
+				AppDelegate *baseApplication = (AppDelegate *) applicationDelegate;
+				return baseApplication;
+			}
+		}
+	}
+	return nil;
+}
+
 
 @end

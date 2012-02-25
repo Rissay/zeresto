@@ -1,5 +1,5 @@
 //
-//  HomeViewController.h
+//  zerestoViewController.h
 //  zeResto
 //
 //  Created by Yassir BARCHI on 25/02/12.
@@ -7,11 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "zerestoViewController.h"
 
-
-@interface HomeViewController : zerestoViewController <UITableViewDataSource, UITableViewDelegate>
+@interface zerestoViewController : UIViewController
 {
+    BOOL canAccessTabBar;
 }
+
+@property (nonatomic) BOOL canAccessTabBar;
 
 @end
