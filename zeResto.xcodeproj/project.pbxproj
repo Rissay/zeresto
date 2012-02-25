@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2E5CA7D14F8D1930033B72E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2E5CA7C14F8D1930033B72E /* UIKit.framework */; };
+		F2E5CA7F14F8D1930033B72E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2E5CA7E14F8D1930033B72E /* Foundation.framework */; };
+		F2E5CA8114F8D1930033B72E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2E5CA8014F8D1930033B72E /* CoreGraphics.framework */; };
+		F2E5CA8714F8D1930033B72E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F2E5CA8514F8D1930033B72E /* InfoPlist.strings */; };
+		F2E5CA8914F8D1930033B72E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E5CA8814F8D1930033B72E /* main.m */; };
+		F2E5CA8D14F8D1930033B72E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E5CA8C14F8D1930033B72E /* AppDelegate.m */; };
+		F2E5CA9014F8D1930033B72E /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E5CA8F14F8D1930033B72E /* MasterViewController.m */; };
+		F2E5CA9314F8D1930033B72E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E5CA9214F8D1930033B72E /* DetailViewController.m */; };
+		F2E5CA9614F8D1930033B72E /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2E5CA9414F8D1930033B72E /* MasterViewController.xib */; };
+		F2E5CA9914F8D1930033B72E /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2E5CA9714F8D1930033B72E /* DetailViewController.xib */; };
+		F2E5CAAA14F8DF3A0033B72E /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E5CAA814F8DF3A0033B72E /* HomeViewController.m */; };
+		F2E5CAAB14F8DF3A0033B72E /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2E5CAA914F8DF3A0033B72E /* HomeViewController.xib */; };
+		F2E5CAB414F8E48E0033B72E /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E5CAB214F8E48E0033B72E /* CustomTableViewCell.m */; };
+		F2E5CAB514F8E48E0033B72E /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2E5CAB314F8E48E0033B72E /* CustomTableViewCell.xib */; };
+		F2E5CAB714F8E5610033B72E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2E5CAB614F8E5610033B72E /* QuartzCore.framework */; };
+		F2E5CAC014F8EE230033B72E /* ListeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E5CABE14F8EE230033B72E /* ListeViewController.m */; };
+		F2E5CAC114F8EE230033B72E /* ListeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2E5CABF14F8EE230033B72E /* ListeViewController.xib */; };
+		F2E5CAC514F8F3510033B72E /* DetailRestoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E5CAC314F8F3500033B72E /* DetailRestoViewController.m */; };
+		F2E5CAC614F8F3510033B72E /* DetailRestoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2E5CAC414F8F3510033B72E /* DetailRestoViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F2E5CA7814F8D1930033B72E /* zeResto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zeResto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2E5CA7C14F8D1930033B72E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F2E5CA7E14F8D1930033B72E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F2E5CA8014F8D1930033B72E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F2E5CA8414F8D1930033B72E /* zeResto-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "zeResto-Info.plist"; sourceTree = "<group>"; };
+		F2E5CA8614F8D1930033B72E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F2E5CA8814F8D1930033B72E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F2E5CA8A14F8D1930033B72E /* zeResto-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "zeResto-Prefix.pch"; sourceTree = "<group>"; };
+		F2E5CA8B14F8D1930033B72E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F2E5CA8C14F8D1930033B72E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F2E5CA8E14F8D1930033B72E /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		F2E5CA8F14F8D1930033B72E /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		F2E5CA9114F8D1930033B72E /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		F2E5CA9214F8D1930033B72E /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		F2E5CA9514F8D1930033B72E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController.xib; sourceTree = "<group>"; };
+		F2E5CA9814F8D1930033B72E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController.xib; sourceTree = "<group>"; };
+		F2E5CAA714F8DF3A0033B72E /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = Controller/HomeViewController.h; sourceTree = "<group>"; };
+		F2E5CAA814F8DF3A0033B72E /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = Controller/HomeViewController.m; sourceTree = "<group>"; };
+		F2E5CAA914F8DF3A0033B72E /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeViewController.xib; path = Controller/HomeViewController.xib; sourceTree = "<group>"; };
+		F2E5CAB114F8E48E0033B72E /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomTableViewCell.h; path = Controller/CustomTableViewCell.h; sourceTree = "<group>"; };
+		F2E5CAB214F8E48E0033B72E /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomTableViewCell.m; path = Controller/CustomTableViewCell.m; sourceTree = "<group>"; };
+		F2E5CAB314F8E48E0033B72E /* CustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CustomTableViewCell.xib; path = Controller/CustomTableViewCell.xib; sourceTree = "<group>"; };
+		F2E5CAB614F8E5610033B72E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F2E5CABD14F8EE230033B72E /* ListeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ListeViewController.h; path = Controller/ListeViewController.h; sourceTree = "<group>"; };
+		F2E5CABE14F8EE230033B72E /* ListeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ListeViewController.m; path = Controller/ListeViewController.m; sourceTree = "<group>"; };
+		F2E5CABF14F8EE230033B72E /* ListeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ListeViewController.xib; path = Controller/ListeViewController.xib; sourceTree = "<group>"; };
+		F2E5CAC214F8F3500033B72E /* DetailRestoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailRestoViewController.h; sourceTree = "<group>"; };
+		F2E5CAC314F8F3500033B72E /* DetailRestoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailRestoViewController.m; sourceTree = "<group>"; };
+		F2E5CAC414F8F3510033B72E /* DetailRestoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailRestoViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2E5CA7514F8D1930033B72E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2E5CAB714F8E5610033B72E /* QuartzCore.framework in Frameworks */,
+				F2E5CA7D14F8D1930033B72E /* UIKit.framework in Frameworks */,
+				F2E5CA7F14F8D1930033B72E /* Foundation.framework in Frameworks */,
+				F2E5CA8114F8D1930033B72E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2E5CA6D14F8D1920033B72E = {
+			isa = PBXGroup;
+			children = (
+				F2E5CA8214F8D1930033B72E /* zeResto */,
+				F2E5CA7B14F8D1930033B72E /* Frameworks */,
+				F2E5CA7914F8D1930033B72E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2E5CA7914F8D1930033B72E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2E5CA7814F8D1930033B72E /* zeResto.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2E5CA7B14F8D1930033B72E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2E5CAB614F8E5610033B72E /* QuartzCore.framework */,
+				F2E5CA7C14F8D1930033B72E /* UIKit.framework */,
+				F2E5CA7E14F8D1930033B72E /* Foundation.framework */,
+				F2E5CA8014F8D1930033B72E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2E5CA8214F8D1930033B72E /* zeResto */ = {
+			isa = PBXGroup;
+			children = (
+				F2E5CA9F14F8DD7F0033B72E /* Controller */,
+				F2E5CAA014F8DD960033B72E /* Ressources */,
+				F2E5CA8B14F8D1930033B72E /* AppDelegate.h */,
+				F2E5CA8C14F8D1930033B72E /* AppDelegate.m */,
+				F2E5CA8314F8D1930033B72E /* Supporting Files */,
+			);
+			path = zeResto;
+			sourceTree = "<group>";
+		};
+		F2E5CA8314F8D1930033B72E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2E5CA8414F8D1930033B72E /* zeResto-Info.plist */,
+				F2E5CA8514F8D1930033B72E /* InfoPlist.strings */,
+				F2E5CA8814F8D1930033B72E /* main.m */,
+				F2E5CA8A14F8D1930033B72E /* zeResto-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2E5CA9F14F8DD7F0033B72E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F2E5CAAC14F8DF4B0033B72E /* Defaulf  */,
+				F2E5CABC14F8ED780033B72E /* UI */,
+				F2E5CAA714F8DF3A0033B72E /* HomeViewController.h */,
+				F2E5CAA814F8DF3A0033B72E /* HomeViewController.m */,
+				F2E5CABD14F8EE230033B72E /* ListeViewController.h */,
+				F2E5CABE14F8EE230033B72E /* ListeViewController.m */,
+				F2E5CAC214F8F3500033B72E /* DetailRestoViewController.h */,
+				F2E5CAC314F8F3500033B72E /* DetailRestoViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		F2E5CAA014F8DD960033B72E /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				F2E5CAA214F8DDC40033B72E /* Images */,
+				F2E5CAA114F8DDAA0033B72E /* Nib */,
+			);
+			name = Ressources;
+			sourceTree = "<group>";
+		};
+		F2E5CAA114F8DDAA0033B72E /* Nib */ = {
+			isa = PBXGroup;
+			children = (
+				F2E5CAC414F8F3510033B72E /* DetailRestoViewController.xib */,
+				F2E5CABF14F8EE230033B72E /* ListeViewController.xib */,
+				F2E5CAA914F8DF3A0033B72E /* HomeViewController.xib */,
+				F2E5CA9414F8D1930033B72E /* MasterViewController.xib */,
+				F2E5CA9714F8D1930033B72E /* DetailViewController.xib */,
+			);
+			name = Nib;
+			sourceTree = "<group>";
+		};
+		F2E5CAA214F8DDC40033B72E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		F2E5CAAC14F8DF4B0033B72E /* Defaulf  */ = {
+			isa = PBXGroup;
+			children = (
+				F2E5CA8E14F8D1930033B72E /* MasterViewController.h */,
+				F2E5CA8F14F8D1930033B72E /* MasterViewController.m */,
+				F2E5CA9114F8D1930033B72E /* DetailViewController.h */,
+				F2E5CA9214F8D1930033B72E /* DetailViewController.m */,
+			);
+			name = "Defaulf ";
+			sourceTree = "<group>";
+		};
+		F2E5CABC14F8ED780033B72E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				F2E5CAB114F8E48E0033B72E /* CustomTableViewCell.h */,
+				F2E5CAB214F8E48E0033B72E /* CustomTableViewCell.m */,
+				F2E5CAB314F8E48E0033B72E /* CustomTableViewCell.xib */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2E5CA7714F8D1930033B72E /* zeResto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2E5CA9C14F8D1930033B72E /* Build configuration list for PBXNativeTarget "zeResto" */;
+			buildPhases = (
+				F2E5CA7414F8D1930033B72E /* Sources */,
+				F2E5CA7514F8D1930033B72E /* Frameworks */,
+				F2E5CA7614F8D1930033B72E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zeResto;
+			productName = zeResto;
+			productReference = F2E5CA7814F8D1930033B72E /* zeResto.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2E5CA6F14F8D1920033B72E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = F2E5CA7214F8D1920033B72E /* Build configuration list for PBXProject "zeResto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F2E5CA6D14F8D1920033B72E;
+			productRefGroup = F2E5CA7914F8D1930033B72E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2E5CA7714F8D1930033B72E /* zeResto */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2E5CA7614F8D1930033B72E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2E5CA8714F8D1930033B72E /* InfoPlist.strings in Resources */,
+				F2E5CA9614F8D1930033B72E /* MasterViewController.xib in Resources */,
+				F2E5CA9914F8D1930033B72E /* DetailViewController.xib in Resources */,
+				F2E5CAAB14F8DF3A0033B72E /* HomeViewController.xib in Resources */,
+				F2E5CAB514F8E48E0033B72E /* CustomTableViewCell.xib in Resources */,
+				F2E5CAC114F8EE230033B72E /* ListeViewController.xib in Resources */,
+				F2E5CAC614F8F3510033B72E /* DetailRestoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2E5CA7414F8D1930033B72E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2E5CA8914F8D1930033B72E /* main.m in Sources */,
+				F2E5CA8D14F8D1930033B72E /* AppDelegate.m in Sources */,
+				F2E5CA9014F8D1930033B72E /* MasterViewController.m in Sources */,
+				F2E5CA9314F8D1930033B72E /* DetailViewController.m in Sources */,
+				F2E5CAAA14F8DF3A0033B72E /* HomeViewController.m in Sources */,
+				F2E5CAB414F8E48E0033B72E /* CustomTableViewCell.m in Sources */,
+				F2E5CAC014F8EE230033B72E /* ListeViewController.m in Sources */,
+				F2E5CAC514F8F3510033B72E /* DetailRestoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F2E5CA8514F8D1930033B72E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2E5CA8614F8D1930033B72E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F2E5CA9414F8D1930033B72E /* MasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2E5CA9514F8D1930033B72E /* en */,
+			);
+			name = MasterViewController.xib;
+			sourceTree = "<group>";
+		};
+		F2E5CA9714F8D1930033B72E /* DetailViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2E5CA9814F8D1930033B72E /* en */,
+			);
+			name = DetailViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2E5CA9A14F8D1930033B72E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F2E5CA9B14F8D1930033B72E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2E5CA9D14F8D1930033B72E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "zeResto/zeResto-Prefix.pch";
+				INFOPLIST_FILE = "zeResto/zeResto-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F2E5CA9E14F8D1930033B72E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "zeResto/zeResto-Prefix.pch";
+				INFOPLIST_FILE = "zeResto/zeResto-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2E5CA7214F8D1920033B72E /* Build configuration list for PBXProject "zeResto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2E5CA9A14F8D1930033B72E /* Debug */,
+				F2E5CA9B14F8D1930033B72E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2E5CA9C14F8D1930033B72E /* Build configuration list for PBXNativeTarget "zeResto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2E5CA9D14F8D1930033B72E /* Debug */,
+				F2E5CA9E14F8D1930033B72E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2E5CA6F14F8D1920033B72E /* Project object */;
+}
